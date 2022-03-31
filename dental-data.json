@@ -1,0 +1,48 @@
+{
+  "discoloration": {
+    "Yellow": "Dentist C",
+    "Whitish": "Dentist C",
+    "Brown/Black": "Dentist C",
+    "Blue": "Dentist C",
+    "Red/Blue/Black": "Dentist C"
+  },
+  "mobility": {
+    "Mild": "Dentist D",
+    "Moderate": "Dentist D",
+    "Severe": "Dentist D",
+    "Mobile": "Dentist D"
+  },
+  "others": {
+    "Gap between the teeth/crowding/malocclusion": "Dentist E",
+    "Missing teeth": "Dentist E"
+  },
+  "pain": {
+    "dull-pain": "Dentist A",
+    "Severe Pain": "Dentist A",
+    "Persistent pain": "Dentist A",
+    "Throbbing pain": "Dentist A"
+  },
+  "swelling": {
+    "Lips": "Dentist B",
+    "Tongue": "Dentist B",
+    "Gums": "Dentist B",
+    "Cheeks": "Dentist B",
+    "Palate": "Dentist B"
+  }
+}
+// API request
+{
+  "pain": "throbbing",
+}
+// API response
+{
+  [ 
+    "if pain is throbbing and teeth are whitish color",
+    "If pain is throbbing and teeth are whitish color and Red/Blue/Black Gum Color",
+    "If pain is throbbing and teeth are whitish color and  No Change in Gum Color"
+  ]
+}
+
+{
+  
+}
